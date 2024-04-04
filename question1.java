@@ -6,7 +6,7 @@ public class MergeArrays {
         int m = X.length;
         int n = Y.length;
 
-        // Move non-zero elements of X to the end
+        
         int k = m - 1;
         for (int i = m - 1; i >= 0; i--) {
             if (X[i] != 0) {
@@ -15,7 +15,7 @@ public class MergeArrays {
             }
         }
 
-        // Merge Y[] into X[]
+        
         int i = n;
         int j = 0;
         int p = 0;
